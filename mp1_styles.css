@@ -1,0 +1,134 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family:system-ui,'Segoe UI','Helvetica Neue';
+}
+
+.header{
+   padding: 1.5rem;
+   display: flex;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin: 0px auto;
+   align-items: center;
+}
+
+.header ul{
+   display:flex;
+   list-style: none;
+   gap: 8rem;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   font-weight: 300;
+   font-size: 16px;
+   color:#fff;
+}
+
+.iscreamm-list .thumbnail .caption{
+   margin-top: auto;
+}
+.iscreamm-topic .caption{
+   font-size: 16px;
+   font-family: Verdana,Tahoma;
+   font-weight: 300;
+   color: #e0dfd5;
+   text-shadow: 0 0 4px #140000;
+}
+.banner{
+   background-size: cover;
+   height:95%;
+   width: 100%;
+   position: absolute;
+   top:0;
+   z-index: -1;
+}
+.banner .glass-wrapper{
+   width:30%;
+   height: 100%;
+   background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 40, 132, 0.37 );
+   backdrop-filter: blur(6px);
+   -webkit-backdrop-filter: blur(6px);
+
+}
+.hero-title {
+   max-width:1200px;
+   margin: 0px auto;
+}
+
+.hero-title p {
+   font-style: oblique;
+   font-family:'Lucida Sans Regular';
+   font-size: 75px;
+   color:#fff;
+   text-transform: none;
+   padding-top: 1.2rem;
+}
+
+.hero-title .highlight {
+   font-size: 55px;
+   font-weight: 840;
+   text-transform:none;
+   line-height: 56px;
+   color:#fff;
+}
+.hero-title .details{
+   width: 55%;
+   padding-top: 1.5rem;
+   color:#fff;
+   font-weight:500;
+   letter-spacing:1.5px;
+   padding-bottom: 1.2rem;
+}
+.hero-title .learn button {
+   border: none;
+   color:#fff;
+   border:none;
+   background-color:#ff781b;
+   padding: 12px 48px;
+   border-radius: 30px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   letter-spacing: 2px;
+   cursor:pointer;
+}
+.hero-title .learn button:hover{
+   background-color: white; 
+   color:#ff781b; 
+   border: 1px solid #ff781b;
+}
+.iscreamm-list {
+   bottom: 5px;
+   position: absolute;
+   left:28rem;
+
+}
+.iscreamm-list ul {
+   display:flex;
+   gap: 26px;
+   list-style:none;
+   width: 62vw;
+   height: 15rem;
+   align-items: center;
+
+
+}
+.iscreamm-list .thumbnail {
+   display: flex;
+   height: 10rem;
+   width: 16rem;
+   background-size:cover !important;
+   border-radius: 10px;
+   flex-direction: column;
+}
+.iscreamm-list .active{
+   margin-top: -5rem;
+}
+
+
+
